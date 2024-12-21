@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<!--This is the main body tag-->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 
-    <!--Include a file containing a body part-->
     <xacro:include filename="robot_core.xacro" />
 
+    <xacro:include filename="gazebo_control.xacro" />
+    <xacro:include filename="lidar.xacro" />
+    
 </robot>
